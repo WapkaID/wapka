@@ -1,0 +1,24 @@
+/* Add Comment disqus for wapka */
+/**
+- Sign up dan login disini disqus.com, jangan lupa konfirmasi pendaftaran melalui email
+- Klik tanda roda gigi di pojok kanan atas > pilih add disqus to site > klik "start using engage"
+- isilah form yang diminta disqus > klik register
+- jika sudah klik 'universal code' atau copas code di bawah ini. jangan lupa ganti username laguok dengan url disqus yang tadi and buat.
+**/
+
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'laguok'; // ganti laguok dengan shortname disqus yang sudah anda buat
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+------------------------------------------------------------------------------------------------------
+jika anda ingin mengarakan pengunjung langsung ke commentar disqus bisa tambah kan ini diakhir link #disqus_thread
+ex: blabla.com/site_1.xhtml?cmid=696969#disqus_thread
